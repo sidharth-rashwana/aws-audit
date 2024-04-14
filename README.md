@@ -15,10 +15,7 @@ chmod +x install.sh
 sh install.sh
 ```
 
-### Step 3: Initialize `.env`
-Initialize the `.env` file to apply the configuration changes.
-
-### Step 4: Manual Setup (For Testing)
+### Step 3: Manual Setup 
 
 If encountering connection or `getipaddr` errors, follow these manual setup steps:
 
@@ -62,13 +59,13 @@ If encountering connection or `getipaddr` errors, follow these manual setup step
    ALTER USER postgres WITH PASSWORD 'new_password';
    ```
 
-### Step 5: Run the Python Script
+### Step 4: Run the Python Script
 Execute the following command to run the Python script:
 ```shell
 python3 run.py
 ```
 
-### Step 6: Store Scan Results on PostgreSQL
+### Step 5: Store Scan Results on PostgreSQL
 To store the scan results on PostgreSQL, use the following command:
 ```shell
 python3 store.py <filename.json>
