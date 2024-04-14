@@ -1,14 +1,7 @@
-Step-1: create .env with parameters:
-```python
-POSTGRES_URL=""
-POSTGRES_USER=""
-POSTGRES_DB=""
-POSTGRES_PASSWORD=""
-AWS_ACCESS_KEY=""
-AWS_SECRET_KEY=""
-```
+Step-1: update `.env` with values:
+
 Step-2 : Run the shell script  
-2.1 `chmod +x install.sh`
+2.1 `chmod +x install.sh`  
 2.2 `sh install.sh`  
 
 Step-3 : Initialise `.env`  
