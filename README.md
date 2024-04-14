@@ -1,4 +1,4 @@
-**Prowler Postgres Integration**
+**Vulnerability Scanner**
 
 Prowler is a powerful tool designed to scan AWS environments for potential security vulnerabilities and misconfigurations.  
 Prowler Postgres Integration extends the functionality of the Prowler tool by seamlessly integrating it with PostgreSQL to store scan findings. This integration enables efficient tracking and management of security vulnerabilities and misconfigurations detected within your AWS environments.
