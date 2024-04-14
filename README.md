@@ -42,7 +42,6 @@ If encountering connection or `getipaddr` errors, follow these manual setup step
    `ALTER USER postgres WITH PASSWORD 'new_password';`
 
 **4: Run the Python Script**  
-Execute the following command to run the Python script:
 `python3 run.py`
 
 **5: Store Scan Results on PostgreSQL**  
