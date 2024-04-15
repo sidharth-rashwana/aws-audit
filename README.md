@@ -6,7 +6,6 @@ Prowler Postgres Integration extends the functionality of the Prowler tool by se
 **Installation Steps**
 
 1. Update `.env` File
-Ensure to update the `.env` file with the necessary values before proceeding.
 
 2. Run the Shell Scripts  
 
